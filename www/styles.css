@@ -1,0 +1,33 @@
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+  font-size: 100%;
+  color: #222222;
+}
+
+.app {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.button a {
+  display: block;
+  padding: 16px;
+  margin: 16px;
+  background: #cccccc;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.button a:active {
+  background: #dddddd;
+  color: #999999;
+}
